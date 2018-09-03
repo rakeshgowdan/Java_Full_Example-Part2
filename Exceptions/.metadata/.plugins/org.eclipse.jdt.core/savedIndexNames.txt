@@ -1,0 +1,9 @@
+INDEX VERSION 1.130+F:\Works\example\JavaV2\Exceptions\.metadata\.plugins\org.eclipse.jdt.core
+1641608741.index
+2035589788.index
+960049522.index
+3954140328.index
+1699021003.index
+2414276953.index
+3942433610.index
+1902004171.index
