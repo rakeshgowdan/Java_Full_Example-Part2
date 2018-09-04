@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+F:\Works\example\JavaV2\RegEx\.metadata\.plugins\org.eclipse.jdt.core
+2593688216.index
+4080511706.index
