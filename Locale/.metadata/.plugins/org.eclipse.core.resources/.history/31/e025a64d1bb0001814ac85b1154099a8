@@ -1,0 +1,30 @@
+import java.util.Locale;
+import java.util.ResourceBundle;
+public class ResourceBundlerExample {
+public static void main(String[] args) {
+
+/*ResourceBundle bundle = ResourceBundle.getBundle("MessageBundle", Locale.US);
+System.out.println("Message in " + Locale.US + ": " + bundle.getString("greeting"));
+
+//changing the default locale to indonasian 
+Locale.setDefault(new Locale("in","ID"));
+bundle = ResourceBundle.getBundle("resource/MessageBundle");
+System.out.println("Message in " + Locale.getDefault() + ": " + bundle.getString("greeting"));
+
+}*/
+
+	
+String lang="sq";
+String country="AL";
+
+Locale l=new Locale(lang,country);
+ResourceBundle r=ResourceBundle.getBundle("ApplicationResources_sq_AL",l);
+
+String Str=r.getString("hello");
+System.out.println(Str);
+
+
+
+
+}
+}
