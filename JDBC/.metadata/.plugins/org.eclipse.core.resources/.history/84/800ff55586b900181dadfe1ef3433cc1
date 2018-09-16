@@ -1,0 +1,5 @@
+package com.niit.sql;
+
+public class SqlConnect {
+
+}
