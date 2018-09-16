@@ -1,0 +1,5 @@
+package com.niit.garbage;
+
+public class GarbageCollectionExample {
+
+}

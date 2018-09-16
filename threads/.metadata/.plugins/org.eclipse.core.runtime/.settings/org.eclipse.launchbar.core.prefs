@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:ThreadExtendsExample,org.eclipse.launchbar.core.descriptorType.default\:ExtendsExample,org.eclipse.launchbar.core.descriptorType.default\:implementsExample,org.eclipse.launchbar.core.descriptorType.default\:SleepMethod,org.eclipse.launchbar.core.descriptorType.default\:JoinExample,org.eclipse.launchbar.core.descriptorType.default\:currentExample,org.eclipse.launchbar.core.descriptorType.default\:TestMultiNaming1,org.eclipse.launchbar.core.descriptorType.default\:ThreadPriority,org.eclipse.launchbar.core.descriptorType.default\:SimpleThreadPool,org.eclipse.launchbar.core.descriptorType.default\:GarbageCollectionExample
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ThreadExtendsExample/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ThreadExtendsExample/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:currentExample/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:currentExample/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

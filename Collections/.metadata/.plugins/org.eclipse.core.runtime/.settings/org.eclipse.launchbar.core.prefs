@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:IteratorExample,org.eclipse.launchbar.core.descriptorType.default\:IteratorExample (1),org.eclipse.launchbar.core.descriptorType.default\:VectorExample,org.eclipse.launchbar.core.descriptorType.default\:CopyVectorToArray,org.eclipse.launchbar.core.descriptorType.default\:LinkedList,org.eclipse.launchbar.core.descriptorType.default\:ArrayListExample,org.eclipse.launchbar.core.descriptorType.default\:LinkedListExample,org.eclipse.launchbar.core.descriptorType.default\:Iterator,org.eclipse.launchbar.core.descriptorType.default\:HashEx,org.eclipse.launchbar.core.descriptorType.default\:Pqueue,org.eclipse.launchbar.core.descriptorType.default\:DqueueEx,org.eclipse.launchbar.core.descriptorType.default\:MapInterfaceExample,org.eclipse.launchbar.core.descriptorType.default\:HashMapEx,org.eclipse.launchbar.core.descriptorType.default\:sort,org.eclipse.launchbar.core.descriptorType.default\:driver
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:CopyVectorToArray/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:CopyVectorToArray/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:IteratorExample/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:IteratorExample/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

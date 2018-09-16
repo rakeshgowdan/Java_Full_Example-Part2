@@ -1,0 +1,13 @@
+package com.niit.thread;
+
+class implementsExample implements Runnable{  
+public void run(){  
+System.out.println("thread is running...-runnable interface achieved");  
+}  
+  
+public static void main(String args[]){  
+	implementsExample m1=new implementsExample();  
+Thread t1 =new Thread(m1);  
+t1.start();  
+ }  
+}

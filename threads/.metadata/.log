@@ -1,0 +1,1065 @@
+!SESSION 2018-09-10 11:26:05.808 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-10 11:27:27.481
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raksh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2018-09-10 11:29:40.455
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-10 11:29:42.487
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-10 11:29:42.501
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-10 11:29:42.511
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-10 11:31:23.692
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-10 11:31:23.699
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-10 11:31:24.692
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-10 11:31:24.707
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 11:47:57.040
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 11:48:20.892
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 11:48:53.209
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 11:49:54.469
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-10 11:51:18.648
+!MESSAGE No repository found at http://download.eclipse.org/efxclipse/updates-released/1.2.0/site/in.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-10 11:53:00.349
+!MESSAGE No repository found at http://jope.ow2.org/update/jope/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-10 11:53:20.448
+!MESSAGE No repository found at https://www.eclipse.org/efxclipse/install.html.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-10 11:53:25.369
+!MESSAGE No repository found at http://download.eclipse.org/usssdk/drops/nightly/N603.
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 12:07:42.439
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 12:09:34.284
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 12:24:36.001
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 12:37:17.731
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 12:46:19.650
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 12:50:35.602
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 12:51:09.106
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 12:56:45.002
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 14:35:20.287
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-10 14:46:19.912
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-09-11 11:57:00.892 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-11 12:04:01.706
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raksh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-09-11 12:21:16.443
+!MESSAGE Connection to http://download.eclipse.org/efxclipse/updates-released/1.2.0/site/in/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:16.808
+!MESSAGE Unknown Host: http://download.eclipse.org/efxclipse/updates-released/1.2.0/site/in/content.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:16.968
+!MESSAGE Unknown Host: http://download.oracle.com/otn_software/oepe/12.2.1.8/oxygen/repository/dependencies/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.oracle.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:17.033
+!MESSAGE Unknown Host: http://download.eclipse.org/oomph/uss/updates/latest/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-09-11 12:21:17.247
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:17.500
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/site.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:17.548
+!MESSAGE Unknown Host: http://download.eclipse.org/eclipse/updates/4.7/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-09-11 12:21:17.570
+!MESSAGE Connection to https://www.eclipse.org/efxclipse/install.html/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:17.828
+!MESSAGE Unknown Host: https://www.eclipse.org/efxclipse/install.html/content.xml
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:17.892
+!MESSAGE Unknown Host: http://download.oracle.com/otn_software/oepe/12.2.1.7/oxygen/repository/dependencies/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.oracle.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-09-11 12:21:18.038
+!MESSAGE Connection to https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/site.xml failed on raw.githubusercontent.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: raw.githubusercontent.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:18.459
+!MESSAGE Unknown Host: https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/site.xml
+!STACK 0
+java.net.UnknownHostException: raw.githubusercontent.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:18.500
+!MESSAGE Unknown Host: http://download.eclipse.org/usssdk/drops/nightly/N603/content.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:18.566
+!MESSAGE Unknown Host: http://download.eclipse.org/webtools/repository/neon/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:18.822
+!MESSAGE Unknown Host: http://download.eclipse.org/usssdk/updates/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:18.854
+!MESSAGE Unknown Host: http://pydev.org/updates/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: pydev.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:18.934
+!MESSAGE Unknown Host: http://download.eclipse.org/releases/oxygen/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-09-11 12:21:18.978
+!MESSAGE Unknown Host: http://download.eclipse.org/tools/cdt/releases/9.4/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.ui 2 2 2018-09-11 13:04:46.257
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+!SESSION 2018-09-15 13:00:53.643 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data F:\Works\example\JavaV2\threads -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-15 13:01:42.897
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raksh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-15 13:04:58.688
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-15 13:04:58.727
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-15 13:04:58.753
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 2 2 2018-09-15 13:05:01.326
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-15 13:05:01.797
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-09-15 13:07:15.841
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:213)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:164)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:234)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:466)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:420)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:791)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:175)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:438)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:122)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-15 14:01:21.144
+!MESSAGE No repository found at http://download.eclipse.org/efxclipse/updates-released/1.2.0/site/in.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-15 14:01:39.460
+!MESSAGE No repository found at http://jope.ow2.org/update/jope/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-15 14:02:02.600
+!MESSAGE No repository found at https://www.eclipse.org/efxclipse/install.html.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-15 14:02:09.451
+!MESSAGE No repository found at http://download.eclipse.org/usssdk/drops/nightly/N603.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-15 14:03:04.669
+!MESSAGE No repository found at http://download.eclipse.org/windowbuilder/WB/integration/4.7/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-09-15 23:59:14.581
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/efxclipse/updates-released/1.2.0/site/in.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:118)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:103)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-15 23:59:14.586
+!MESSAGE No repository found at http://download.eclipse.org/efxclipse/updates-released/1.2.0/site/in.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-09-15 23:59:33.213
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://www.eclipse.org/efxclipse/install.html.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:118)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:103)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-15 23:59:33.213
+!MESSAGE No repository found at https://www.eclipse.org/efxclipse/install.html.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-09-15 23:59:46.296
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/usssdk/drops/nightly/N603.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:118)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:103)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-15 23:59:46.296
+!MESSAGE No repository found at http://download.eclipse.org/usssdk/drops/nightly/N603.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-09-16 00:01:15.930
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/windowbuilder/WB/integration/4.7/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:118)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:103)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-09-16 00:01:15.931
+!MESSAGE No repository found at http://download.eclipse.org/windowbuilder/WB/integration/4.7/.
+!SESSION 2018-09-16 00:48:43.119 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/F:/Works/example/JavaV2/threads/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-16 00:50:21.155
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-16 00:50:21.602
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-16 00:50:21.805
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-16 00:50:21.833
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-16 00:50:21.901
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-16 00:50:23.131
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raksh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

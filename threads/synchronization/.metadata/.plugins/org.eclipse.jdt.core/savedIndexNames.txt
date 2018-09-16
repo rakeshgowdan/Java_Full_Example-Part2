@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+F:\Works\example\JavaV2\threads\synchronization\.metadata\.plugins\org.eclipse.jdt.core
+137263726.index
+4124553232.index
+3949664310.index
+153701068.index
