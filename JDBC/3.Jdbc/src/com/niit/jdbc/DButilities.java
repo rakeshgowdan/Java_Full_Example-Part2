@@ -14,7 +14,7 @@ public class DButilities {
     	System.out.println("connection successfull");
     	Statement stmt=conn.createStatement();  
     	System.out.println("Inserting records into the table...");
-        stmt = conn.createStatement();
+        
         
         String sql2 = "INSERT INTO Registration1 " +
                      "VALUES (100, 'Zara', 'Ali', 18)";
