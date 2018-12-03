@@ -14,10 +14,13 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.awt.event.ActionEvent;
+import javax.swing.ImageIcon;
+import java.awt.Color;
+import java.awt.Toolkit;
 
 public class Login {
 
-	private JFrame frame;
+	private JFrame frmLogin;
 	private JTextField textField;
 	private JTextField textField_1;
 
@@ -29,7 +32,7 @@ public class Login {
 			public void run() {
 				try {
 					Login window = new Login();
-					window.frame.setVisible(true);
+					window.frmLogin.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -49,30 +52,36 @@ public class Login {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().setLayout(null);
+		frmLogin = new JFrame();
+		frmLogin.setTitle("LOGIN");
+		frmLogin.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Raksh\\Downloads\\icons\\kisspng-computer-icons-user-clip-art-user-5abf13db5624e4.1771742215224718993529.png"));
+		frmLogin.setBounds(100, 100, 544, 391);
+		frmLogin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frmLogin.getContentPane().setLayout(null);
 		
 		textField = new JTextField();
-		textField.setBounds(227, 59, 86, 20);
-		frame.getContentPane().add(textField);
+		textField.setFont(new Font("Segoe UI Historic", Font.BOLD, 14));
+		textField.setBounds(307, 59, 113, 20);
+		frmLogin.getContentPane().add(textField);
 		textField.setColumns(10);
 		
 		textField_1 = new JTextField();
-		textField_1.setBounds(227, 112, 86, 20);
-		frame.getContentPane().add(textField_1);
+		textField_1.setFont(new Font("Segoe UI Historic", Font.BOLD, 14));
+		textField_1.setBounds(307, 112, 113, 20);
+		frmLogin.getContentPane().add(textField_1);
 		textField_1.setColumns(10);
 		
 		JLabel lblUserId = new JLabel("USER ID");
+		lblUserId.setForeground(Color.WHITE);
 		lblUserId.setFont(new Font("Tahoma", Font.BOLD, 15));
 		lblUserId.setBounds(64, 62, 86, 14);
-		frame.getContentPane().add(lblUserId);
+		frmLogin.getContentPane().add(lblUserId);
 		
 		JLabel lblPassword = new JLabel("PASSWORD");
+		lblPassword.setForeground(Color.WHITE);
 		lblPassword.setFont(new Font("Tahoma", Font.BOLD, 15));
 		lblPassword.setBounds(64, 115, 96, 14);
-		frame.getContentPane().add(lblPassword);
+		frmLogin.getContentPane().add(lblPassword);
 		
 		JButton btnSubmit = new JButton("SUBMIT");
 		btnSubmit.addActionListener(new ActionListener() {
@@ -105,15 +114,15 @@ public class Login {
 					}
 					if(count==1)
 					{
-						frame.dispose();
-						Window w=new Window();
+						frmLogin.dispose();
+						Data d=new Data();
 						
 					}else if(count>1)
 					{
-						JOptionPane.showMessageDialog(frame,"ERROR!!!! duplicate password");
+						JOptionPane.showMessageDialog(frmLogin,"ERROR!!!! duplicate password");
 					}else
 					{
-						JOptionPane.showMessageDialog(frame,"ERROR!!!! incorrect user name n pass");
+						JOptionPane.showMessageDialog(frmLogin,"ERROR!!!! incorrect user name n pass");
 					}
 				}
 				catch(Exception ie)
@@ -125,17 +134,17 @@ public class Login {
 		});
 		btnSubmit.setFont(new Font("Segoe UI Historic", Font.BOLD, 11));
 		btnSubmit.setBounds(64, 174, 89, 23);
-		frame.getContentPane().add(btnSubmit);
+		frmLogin.getContentPane().add(btnSubmit);
 		
 		JButton btnCancel = new JButton("CANCEL");
 		btnCancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				frame.dispose();
+				frmLogin.dispose();
 			}
 		});
 		btnCancel.setFont(new Font("Segoe UI Historic", Font.BOLD, 11));
-		btnCancel.setBounds(227, 175, 89, 23);
-		frame.getContentPane().add(btnCancel);
+		btnCancel.setBounds(344, 174, 89, 23);
+		frmLogin.getContentPane().add(btnCancel);
 		
 		JButton btnNewUserSign = new JButton("NEW USER? SIGN UP");
 		btnNewUserSign.addActionListener(new ActionListener() {
@@ -144,7 +153,12 @@ public class Login {
 			}
 		});
 		btnNewUserSign.setFont(new Font("Segoe UI Historic", Font.BOLD, 12));
-		btnNewUserSign.setBounds(124, 227, 163, 23);
-		frame.getContentPane().add(btnNewUserSign);
+		btnNewUserSign.setBounds(179, 231, 163, 23);
+		frmLogin.getContentPane().add(btnNewUserSign);
+		
+		JLabel lblNewLabel = new JLabel("New label");
+		lblNewLabel.setIcon(new ImageIcon("F:\\hd wallpapers\\Wood-Wallpaper-1080p.jpg"));
+		lblNewLabel.setBounds(0, 0, 528, 352);
+		frmLogin.getContentPane().add(lblNewLabel);
 	}
 }

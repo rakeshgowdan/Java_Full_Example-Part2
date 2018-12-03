@@ -11,6 +11,8 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.Toolkit;
+import javax.swing.ImageIcon;
 
 public class Register extends JFrame {
 
@@ -41,6 +43,8 @@ public class Register extends JFrame {
 	 * Create the frame.
 	 */
 	public Register() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Raksh\\Downloads\\icons\\help-desk-png-31.png"));
+		setTitle("REGISTER");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 464, 455);
 		contentPane = new JPanel();
@@ -105,6 +109,11 @@ public class Register extends JFrame {
 		JLabel lblPanNo = new JLabel("PAN NO");
 		lblPanNo.setBounds(56, 309, 46, 14);
 		contentPane.add(lblPanNo);
+		
+		JLabel lblNewLabel = new JLabel("New label");
+		lblNewLabel.setIcon(new ImageIcon("F:\\hd wallpapers\\wallpaper\\299743.jpg"));
+		lblNewLabel.setBounds(-637, -167, 1970, 914);
+		contentPane.add(lblNewLabel);
 		setVisible(true);
 	}
 
