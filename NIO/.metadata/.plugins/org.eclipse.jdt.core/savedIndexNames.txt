@@ -1,0 +1,4 @@
+INDEX VERSION 1.130+C:\Users\mruser\Desktop\Java Eve Batch\NIO\.metadata\.plugins\org.eclipse.jdt.core
+3762566049.index
+3157119040.index
+2280838923.index

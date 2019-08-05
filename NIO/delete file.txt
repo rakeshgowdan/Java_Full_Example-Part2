@@ -1,0 +1,14 @@
+Files.delete()
+The Files.delete() method can delete a file or directory. Here is a Java Files.delete() example:
+
+Path path = Paths.get("data/subdir/logging-moved.properties");
+
+try {
+    Files.delete(path);
+} catch (IOException e) {
+    //deleting file failed
+    e.printStackTrace();
+}
+First the Path pointing to the file to delete is created.
+ Second the Files.delete() method is called. If the Files.delete() fails to delete the file for some reason (e.g. the file or directory does not exist),
+ an IOException is thrown.

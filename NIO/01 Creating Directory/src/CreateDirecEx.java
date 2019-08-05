@@ -1,0 +1,26 @@
+import java.io.IOException;
+import java.nio.file.FileAlreadyExistsException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class CreateDirecEx {
+
+	public static void main(String[] args) {
+		//provide the path to be created
+		Path path = Paths.get("C:\\Users\\mruser\\Desktop\\Java Eve Batch\\hello");
+
+		try {
+		    Path newDir = Files.createDirectory(path);
+		    System.out.println("done"+newDir);
+		    System.out.println("done");
+		} catch(FileAlreadyExistsException e){
+		    // the directory already exists.
+		} catch (IOException e) {
+		    //something else went wrong
+		    e.printStackTrace();
+		}
+
+	}
+
+}

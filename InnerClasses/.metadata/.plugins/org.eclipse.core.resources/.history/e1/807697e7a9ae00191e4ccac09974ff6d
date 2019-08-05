@@ -1,0 +1,9 @@
+/*
+ * A class i.e. created inside a method is called local inner class in java. 
+ * If you want to invoke the methods of local inner class, you must instantiate
+ *  this class inside the method.
+ * 
+ */
+public class LocalInnerClassEX {
+
+}

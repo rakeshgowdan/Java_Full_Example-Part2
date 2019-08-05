@@ -1,0 +1,14 @@
+Java NIO
+package --> java.Nio
+
+==>issues with IO package
+1.no method to copy file or directory
+2.performance related issue :: i.e., thread performing write operation 
+was blocked until some data is transfared 
+etc..
+
+topics::
+1. path interface & Path Class
+2.Manipulating files & directives 
+3. watch service
+4. Read& write to file
